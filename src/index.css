@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap");
+:root {
+  --font-family: "Montserrat", sans-serif;
+  --bg-color: #e0e0e0;
+  --primary-black: #090909;
+  --secondary-black: #2b2b2b;
+  --primary-red: #c23742;
+  --secondary-red: #ce5f68;
+  --primary-white: #fff;
+  --secondary-white: #d5d5d5;
+  --primary-grey: #2d2d2d;
+  --secondary-grey: #575757;
+  --transition: all 400ms ease-in;
+  --button-gradient2: linear-gradient(
+    87deg,
+    rgba(0, 93, 167, 1) 0%,
+    rgba(0, 20, 36, 1) 100%
+  );
+  --button-gradient: linear-gradient(
+    87deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(58, 0, 0, 1) 100%
+  );
+  --text-color: -moz-linear-gradient(
+    90deg,
+    rgba(7, 5, 78, 1) 0%,
+    rgba(81, 9, 81, 1) 100%
+  );
+  --box-shadow1: 5px 5px 10px #a8abad, -5px -5px 10px #ffffff;
+  --box-shadow2: inset 6px 6px 8px #96999b, inset -6px -6px 8px #ffffff;
+  --box-shadow3: 6px 6px 8px #96999b, -6px -6px 8px #ffffff;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: var(--font-family);
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--bg-color);
+  overflow-x: hidden;
+}

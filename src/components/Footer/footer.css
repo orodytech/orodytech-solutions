@@ -1,0 +1,117 @@
+.footer {
+  /* background: var(--blackLight-color); */
+  background: url("../../assets/footer.png") center center/cover no-repeat;
+  margin-top: auto;
+}
+.footer__container {
+  color: var(--white-color);
+  padding: 2rem 2rem;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 0.5px solid var(--grey-color);
+  padding-bottom: 1.4rem;
+}
+.col__one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* width: 100%; */
+}
+
+.column__one {
+  margin-right: 42px;
+}
+
+hr {
+  display: none;
+}
+.col h4 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 18px;
+  padding-bottom: 0.8rem;
+}
+.col span {
+  color: var(--redlight-color);
+}
+.col ul {
+  text-decoration: none;
+}
+.col ul li {
+  list-style: none;
+  color: var(--p-lightgrey);
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.list__social li {
+  display: flex;
+  align-items: center;
+}
+.social__icon {
+  color: var(--redlight-color);
+  margin-right: 1.2rem;
+}
+.footer__copyright {
+  text-align: center;
+  padding: 0.8rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .col h4 {
+    font-size: 14px;
+    padding-bottom: 0.6rem;
+    font-weight: 400;
+  }
+  .col ul li {
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .col__one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  .col h4 {
+    font-size: 1rem;
+    padding-bottom: 0.6rem;
+    font-weight: 400;
+  }
+  .col ul li {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+
+  .footer__copyright {
+    font-size: 0.8rem;
+    border-bottom: 0.5px solid var(--grey-color);
+  }
+}
+/* 
+@media screen and (max-width: 320px) {
+  .col__one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  .column__one {
+    margin-bottom: 24px;
+  }
+
+  .list__social {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+} */
